@@ -1,0 +1,33 @@
+{
+  "name": "skeleton-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el37/skeleton-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el37/skeleton-react/issues"
+  },
+  "homepage": "https://github.com/el37/skeleton-react#readme",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.4",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2",
+    "webpack": "^2.2.1"
+  }
+}
